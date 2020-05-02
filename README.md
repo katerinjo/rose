@@ -2,7 +2,7 @@
 
 Rose is a tree representation that simply uses rows of indented text. Nested objects, dictionaries, lists, and whatever weird nonsense TOML is doing are too much clutter; knock it off, y'all.
 
-This is an experimental attempt to translate back and forth between a tree format that's easy to read and write and a tree format that Python understands. It is intended to be for trees what markdown is for web pages: less confusing clutter but without the imprecision and guesswork of WYSIWYG.
+This is an experimental attempt to translate back and forth between a tree format that's easy to read and write and a tree format that Python understands. It is intended to be for trees what markdown is for web pages: less distracting boilerplate but without the imprecision and guesswork of WYSIWYG.
 
 ## Syntax
 
@@ -95,7 +95,7 @@ Compare the legibility of the same structure in JSON:
 }
 ```
 
-Even hiccup syntax is only nice to work with to the extent that it imitates a simple straightforward tree:
+Even hiccup syntax is only nice to work with to the extent that it imitates a straightforward tree diagram:
 
 ```edn
 [:grandparent
