@@ -22,18 +22,21 @@ For now, all data values are strings. If you need anything else, you'll have to 
 
 ```
 Just the Marshmallows
-  ingredients:
-    cereal marshmallows
-    either
-      moo milk
-      rice milk
-  instructions:
+	ingredients:
+		cereal marshmallows
+		either
+			moo milk
+			rice milk
+	instructions:
 
-    Dump the marshmallows into a bowl. Don't put in so much you'll get sick, but do eat a serving large enough to properly honor the memory of your childhood self.
+		-	Dump the marshmallows into a bowl. Don't put in so much you'll get sick, but do
+    	eat a serving large enough to properly honor the memory of your childhood self.
 
-    Add milk. You can probably get away with less than you'd use in regular cereal.
+		-	Add milk. You can probably get away with less than you'd use in regular cereal.
 
-    Take a photo of your dinner before eating it, so you can send it to your parents to show off your heroism. True adulthood is living your own life, not the one your parents prescribed for you.
+		-	Take a photo of your dinner before eating it, so you can send it to your parents
+    	to show off your heroism. True adulthood is living your own life, not the one
+      your parents prescribed for you.
 ```
 
 ### To-do list
