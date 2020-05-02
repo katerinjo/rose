@@ -114,10 +114,10 @@ Well, maybe we can just type the tree using indentation but without the pipes:
 
 ```
 grandparent
-  parent
-    child
-      grandchild
-    sibling
+	parent
+		child
+			grandchild
+		sibling
 ```
 
 This also has the advantage that indentation-based folding is already supported in sufficiently fancy text editors.
