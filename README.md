@@ -30,13 +30,13 @@ Just the Marshmallows
 	instructions:
 
 		-	Dump the marshmallows into a bowl. Don't put in so much you'll get sick, but do
-    	eat a serving large enough to properly honor the memory of your childhood self.
+			eat a serving large enough to properly honor the memory of your childhood self.
 
 		-	Add milk. You can probably get away with less than you'd use in regular cereal.
 
 		-	Take a photo of your dinner before eating it, so you can send it to your parents
-    	to show off your heroism. True adulthood is living your own life, not the one
-      your parents prescribed for you.
+			to show off your heroism. True adulthood is living your own life, not the one
+			your parents prescribed for you.
 ```
 
 ### To-do list
