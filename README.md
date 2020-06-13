@@ -1,6 +1,6 @@
 # ![-+@](img/rose24.png) Rose
 
-Rose is a tree representation that simply uses rows of indented text. Nested objects, dictionaries, lists, and whatever weird nonsense TOML is doing are too much clutter; knock it off, y'all.
+Rose is a tree representation that simply uses rows of indented text. Nested objects, dictionaries, lists, and whatever weird nonsense TOML is doing are too much clutter.
 
 This is an experimental attempt to translate back and forth between a tree format that's easy to read and write and a tree format that Python understands. It is intended to be for trees what markdown is for web pages: less distracting boilerplate but without the imprecision and guesswork of WYSIWYG.
 
@@ -45,13 +45,13 @@ Just the Marshmallows
 achieve contentment
 	eat marshmallows for dinner
 		buy milk
-		✓	buy marshmallows
+		✓ buy marshmallows
 	take over the world
 		become immortal
 			study biology
 			learn linear algebra
 		study supply chain management
-		x	practice evil laugh
+		x practice evil laugh
 ```
 
 ## Background
@@ -60,14 +60,14 @@ Visualizing data as an indented tree makes it easy to comprehend:
 
 ```
 grandparent
-|
-+-> parent
-    |
-    +-> child
-    |   |
-    |   +-> grandchild
-    |
-    +-> sibling
+│
+└─➤ parent
+    │
+    ├─➤ child
+    │   │
+    │   └─➤ grandchild
+    │
+    └─➤ sibling
 ```
 
 Compare the legibility of the same structure in JSON:
