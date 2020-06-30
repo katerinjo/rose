@@ -13,6 +13,8 @@ DFLT_FLAGS = {
 
 FLAG_ORDER = ['preferred-indent', 'inline-branch']
 
+rose_re = re.compile(r'^-[-+]@')
+
 def parse_flag(text):
     if re.match(r'^[A-z]+=.+', text):
         partition = text.index('=')
@@ -36,8 +38,8 @@ def load_meta(line):
             flagstate['tags'].add(flag['content'])
     return flagstate
 
-def rose_header(line):
-    return re.match(r'^-[-+]@', line)
+# def rose_header(line):
+#     return re.match(r'^-[-+]@', line)
 
 def get_indent(line):
     indent = 0
@@ -87,7 +89,7 @@ def load_body(lines):
     return root
 
 def load_tree(lines):
-    if rose_header(lines[0]):
+    if rose_re.match(lines[0]):
         metadata = load_meta(lines[0])
         lines = lines[1:]
     else:
