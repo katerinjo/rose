@@ -2,8 +2,6 @@
 
 import re
 
-import pprint
-
 DFLT_FLAGS = {
         'version': '0.4',
         'tags': set(),
@@ -37,9 +35,6 @@ def load_meta(line):
         else:
             flagstate['tags'].add(flag['content'])
     return flagstate
-
-# def rose_header(line):
-#     return re.match(r'^-[-+]@', line)
 
 def get_indent(line):
     indent = 0
@@ -130,7 +125,3 @@ def dump(data, addr):
 def query(key, template):
     pass
 
-if __name__ == '__main__':
-    node_tree = loads('a\tb\tc\td')
-    pprint.pprint(node_tree)
-    print(dumps(node_tree))
