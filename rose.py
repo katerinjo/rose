@@ -122,6 +122,12 @@ def dump(data, addr):
     with open(addr, 'w') as f:
         f.write(dumps(data))
 
+def sorted_tree(rose_tree):
+    new_tree = {**rose_tree}
+    new_tree['zoom'].sort(key=lambda x: x['content'])
+    for child in new_tree['zoom']:
+        child = sorted_tree(child)
+    return new_tree
+
 def query(key, template):
     pass
-
